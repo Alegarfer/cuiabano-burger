@@ -3,23 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fonte awesomw -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Cuiabano Burger</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>cuiabano burger</title>
 </head>
 <body>
-    <!-- header-->
+   <!-- header--> 
     <header>
         <nav id="navbar">
-            <a href="Link">
-                <i class="fa-solid fa-burger">
-                  Cuiabano Burger
-                </i>
-            </a>
+          <a href="#">
+            <i class="fa-solid fa-burger">
+                cuiabano burger
+            </i>
+          </a>
+          <!--menu de navegaçao-->  
+          <ul id="nav_list">
+            <li class="nav-item" active>
+            <a href="#">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">cardapio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">avaliações</a>
+                </li>
+          </ul>
+          <button class="btn-default">
+            peça aqui
+          </button>
         </nav>
+        <!--menu para dispositivos moveis-->
+        <div id="mobile-menu">
+          <ul id="mobile_nav_list">
+            <li class="nav-item">
+            <a href="#">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">cardapio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">avaliações</a>
+                </li>
+          </ul>
+          <button class="btn-default">
+            peça aqui
+          </button>
+        </div>
     </header>
 </body>
 </html>
