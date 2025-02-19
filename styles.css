@@ -2,12 +2,12 @@
 
 /* Variaveis CSS */
 :root {
-  --color-primary-1: #f0f8f0;
+  --color-primary-1: #a9a3f8;
   --color-primary-2: #a7f50b;
   --color-primary-3: #acf36a;
-  --color-primary-4: rgb(144, 238, 144);
+  --color-primary-4: rgb(236, 185, 16);
   --color-primary-5: #32cd32;
-  --color-primary-6: #228b22;
+  --color-primary-6: #0e630b;
 
   --color-neutral-0: #fff;
   --color-neutral-1: #333;
@@ -60,4 +60,12 @@ header {
 .nav-item.active a{
     color: var(--color-neutral-1);
     border-bottom: 3px solid var(--color-primary-4);
+}
+
+#mobile_btn{
+  display: none;
+}
+
+#mobile_menu{
+  display: none;
 }
