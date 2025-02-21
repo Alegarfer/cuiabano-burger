@@ -34,6 +34,9 @@ header {
   z-index: 3;
 }
 
+section{
+  padding: 28px 8%;
+}
 #navbar {
   width: 100%;
   display: flex;
@@ -132,3 +135,16 @@ header {
     right: 0;
     z-index: 1;
   }
+  
+  #banner {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+    z-index: 2;
+    }
+
+    #banner img {
+      width: 90%;
+      height: fit-content;
+    }
