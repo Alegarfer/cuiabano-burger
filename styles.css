@@ -34,9 +34,10 @@ header {
   z-index: 3;
 }
 
-section{
+section {
   padding: 28px 8%;
 }
+
 #navbar {
   width: 100%;
   display: flex;
@@ -54,99 +55,101 @@ section{
   list-style: none;
   gap: 48px;
 }
+
 .nav-item a {
-    text-decoration: none;
-    color: #1d1d1dad;
-    font-weight: 600;
+  text-decoration: none;
+  color: #1d1d1dad;
+  font-weight: 600;
 }
 
-.nav-item.active a{
-    color: var(--color-neutral-1);
-    border-bottom: 3px solid var(--color-primary-4);
+.nav-item.active a {
+  color: var(--color-neutral-1);
+  border-bottom: 3px solid var(--color-primary-4);
 }
 
-#mobile_btn{
+#mobile_btn {
   display: none;
 }
 
-#mobile_menu{
+#mobile_menu {
   display: none;
 }
 
-/*home*/
-#home{
+/* Home */
+#home {
   display: flex;
-  min-height: calc(100vh-91px);
+  min-height: calc(100vh - 91px);
   position: relative;
-  }
+}
 
-  #cta{
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    margin-top: 5%;
-  }
-  #cta .title{
-    font-size: 4rem;
-    color: var(--color-neutral-1);
-  }
+#cta {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 5%;
+}
 
-  #cta .title span{
-    color: var(--color-primary-6);
-  }
+#cta .title {
+  font-size: 4rem;
+  color: var(--color-neutral-1);
+}
 
-  cta .descrition{
-    font-size: 1.2rem;
-  }
+#cta .title span {
+  color: var(--color-primary-6);
+}
 
-  #cta_buttons{
-    display: flex;
-    gap: 24px;
-  }
+#cta .description {
+  font-size: 1.2rem;
+}
 
-  #cta_buttons a{
-    text-decoration: none;
-    color: var(--color-neutral-1);
-  }
+#cta_buttons {
+  display: flex;
+  gap: 24px;
+}
 
-  #phone_button{
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    background-color: #bdbdbd
-    ;
-    padding: 8px 14px;  /*espaçamento interno entre letras*/
-    font-weight: 500;
-    box-shadow: 0px opx 12px 4px rgba(0, 0, 0, 0.1); /*cima direita baixo esquerda*/
-    border-radius: 12px;
-    
-  }
-  #phone_button button{
-    box-shadow: none;    
-  }
-  .shape{
-    background-color: var(--color-primary-3);
-    width: 50%;
-    height: 85%;
-    position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    right: 0;
-  }
-  
+#cta_buttons a {
+  text-decoration: none;
+  color: var(--color-neutral-1);
+}
+
+#phone_button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px 14px;
+  font-weight: 500;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+#phone_button button {
+  box-shadow: none;
+}
+
+.shape {
+  background-color: var(--color-primary-2);
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  border-radius: 40% 30% 0% 20%;
+  top: 0;
+  right: 0;
+}
+
 #banner {
-     display: flex;
-      align-items: center;
-        justify-content: center;
-          width: 100%;
-        }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
 
 #banner img {
-      width: 80%;
-      right: 100%;
-       height: fit-content;
-    }
+  height: 90%;
+  width: fit-content;
+}
+
 .btn-default {
   border: none;
   display: flex;
@@ -156,35 +159,35 @@ section{
   border-radius: 12px;
   padding: 10px 14px;
   font-weight: 600;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0.2);
-   transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  transition: background-color .3s ease;
 }
 
 .btn-default:hover {
   background-color: var(--color-primary-3);
 }
 
-.social-media-buttons{
+.social-media-buttons {
   display: flex;
   gap: 18px;
-  }
-  .social-media-buttons a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px; 
-    height: 45px;
-    background-color: var(--color-neutral-0);
-    font-size: 1.25rem;
-    border-radius: 10px;
-    text-decoration: none;
-   color: var(--color-neutral-1);
-   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-   transition: .3s ease;
-  }
-  .social-media-buttons a:hover{
-    background-color: var(--color-primary-4);
-    color: var(--color-neutral-0);
-    box-shadow: 0px 0px 12px 8px rgba(144,238,144,0.8);
-  }
+}
+
+.social-media-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background-color: var(--color-neutral-0);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--color-neutral-1);
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+  box-shadow: 0px 0px 12px 8px rgba(144, 238, 144, 0.8);
+}
