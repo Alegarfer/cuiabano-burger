@@ -6,6 +6,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Link CSS: Importa o arquivo CSS para estilizar a página. -->
   <link rel="stylesheet" href="styles.css">
 
   <title>Cuiabano Burguer</title>
@@ -60,13 +61,9 @@
   </header>
   <!-- Conteúdo principal da página web -->
   <main id="content">
+    <!-- Home -->
     <section id="home">
-      <div class="shape">
-        <!-- Banner do Chef -->
-        <div id="banner">
-          <img src="images/banner-chef.png" alt="Imagem de um chef com barba e toca na cabeça e preparando um hamburguer">
-        </div>
-      </div>
+      <div class="shape"></div>
       <div id="cta">
         <h1 class="title">
           O sabor de <span>Cuiabá</span> em cada mordida.
@@ -110,6 +107,10 @@
           </a>
         </div>
       </div>
+      <!-- Banner do Chef -->
+      <div id="banner">
+        <img src="images/banner-chef.png" alt="Imagem de um chef com barba e toca na cabeça e preparando um hamburguer">
+      </div>
     </section>
     <!-- Menu -->
     <section id="menu">
@@ -117,7 +118,7 @@
       <h3 class="section-subtitle">Nossos hamburgueres especiais</h3>
 
       <div id="burguers">
-        <!-- 1 Card Burguer -->
+        <!-- Card Burguer 1 -->
         <div class="burguer">
           <div class="burguer-heart">
             <i class="fa-solid fa-heart"></i>
@@ -141,8 +142,8 @@
               <i class="fa-solid fa-basket-shopping"></i>
             </button>
           </div>
-        </div> <!-- Fim do 1 Card Burguer -->
-        <!-- 2 Card Burguer -->
+        </div> <!-- Fim do Card Burguer 1 -->
+        <!-- Card Burguer 2-->
         <div class="burguer">
           <div class="burguer-heart">
             <i class="fa-solid fa-heart"></i>
@@ -166,8 +167,8 @@
               <i class="fa-solid fa-basket-shopping"></i>
             </button>
           </div>
-        </div> <!-- Fim do 2 Card Burguer -->
-        <!-- 3 Card Burguer -->
+        </div> <!-- Fim do Card Burguer 2 -->
+        <!-- Card Burguer 3 -->
         <div class="burguer">
           <div class="burguer-heart">
             <i class="fa-solid fa-heart"></i>
@@ -191,8 +192,8 @@
               <i class="fa-solid fa-basket-shopping"></i>
             </button>
           </div>
-        </div> <!-- Fim do 3 Card Burguer -->
-        <!-- 4 Card Burguer -->
+        </div> <!-- Fim do Card Burguer 3 -->
+        <!-- Card Burguer 4 -->
         <div class="burguer">
           <div class="burguer-heart">
             <i class="fa-solid fa-heart"></i>
@@ -216,9 +217,98 @@
               <i class="fa-solid fa-basket-shopping"></i>
             </button>
           </div>
-        </div> <!-- Fim do 4 Card Burguer -->
+        </div> <!-- Fim do Card Burguer 4 -->
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <img src="images/burguer.png" alt="Imagem de um Burguer com todos os ingredientes em detalhes" id="testimonial_burguer">
+      <div id="testimonials_content">
+        <h2 class="section-title">
+          Depoimentos
+        </h2>
+        <h3 class="section-subtitle">
+          O que os clientes falam sobre nós
+        </h3>
+        <!-- Feedbacks -->
+        <div id="feedbacks">
+          <!-- Feedback do homem -->
+          <div class="feedback"> 
+            <img src="images/avatar2.jpg" alt="Imagem de um cliente homem" class="feedback-avatar">
+            <div class="feedback-content">
+              <p>
+                <strong>Wanderson Timóteo</strong>
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>
+                "Este hambúrguer me supreendeu! A combinação de sabores é incrível e a carne é simplemente deliciosa. Mal posso esperar para voltar a experimentar outros hambúrgueres do cardápio!"
+              </p>
+            </div>
+          </div> <!-- Fim do feedback do homem -->
+          <!-- Feedback da mulher -->
+          <div class="feedback">
+            <img src="images/avatar.jpg" alt="Imagem de uma cliente mulher" class="feedback-avatar">
+            <div class="feedback-content">
+              <p>
+                <strong>Letícia da Silva</strong>
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>
+                "O melhor hambúrguer que já comi em Cuiabá! A carne é suculenta e saborosa, o pão é macio e os acompanhamentos são frescos e de qualidade. O atendimento é ótimo e o ambiente é agradável. Recomendo!"
+              </p>
+            </div>
+          </div><!-- Fim do feedback da mulher -->
+        </div>
+        <button class="btn-default">
+          Ver mais avaliações
+        </button>
       </div>
     </section>
   </main>
+  <!-- Footer -->
+  <footer>
+    <img src="images/ondulacao-bege.svg" alt="Imagem ondulada de cor bege">
+    <div id="footer_items">
+      <span id="copyright">
+        Copyright &copy; 2025 - Todos os direitos reservados - Cuiabano Burguer
+      </span>
+      <!-- Redes sociais -->
+      <div class="social-media-buttons">
+        <a 
+          href="https://api.whatsapp.com/send?phone=5565999999999&text=Quero%20fazer%20um%20pedido!" 
+          target="_blank" 
+          rel="noopener no-referrer"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a 
+          href="https://www.instagram.com/wanderson_a_timoteo/" 
+          target="_blank" 
+          rel="noopener no-referrer"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a 
+          href="https://www.facebook.com/wanderson.a.timoteo" 
+          target="_blank" 
+          rel="noopener no-referrer"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
