@@ -31,7 +31,7 @@
 
 Landing page interativa desenvolvida para a hamburgueria **Cuiabano Burguer**, trazendo um design moderno e dinâmico para apresentar os produtos e serviços de forma atrativa.
 
-Acessar Site Cuiabano Burguer **[Clique aqui]( )**
+Acessar Site Cuiabano Burguer **[Clique aqui](https://alegarfer.github.io/cuiabano-burger/ )**
 
 <br>
 
