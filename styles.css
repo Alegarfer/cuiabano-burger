@@ -34,10 +34,10 @@ section {
 }
 
 
-/*  Header */
+/*  Header *//* Braa de menu inicio cardarpio e comentarios */
 header {
     width: 100%;
-    padding: 28px 8%;
+    padding: 12px 8%;
     position: sticky; /* Define a barra de navegação como fixa no topo */
     top: 0;
     background-color: var(--color-primary-1);
@@ -105,7 +105,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        margin: 12px 0px;
+        margin: 10px 0px;
     }
 
     #mobile_nav_list .nav-item {
